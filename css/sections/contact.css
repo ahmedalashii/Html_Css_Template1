@@ -1,0 +1,87 @@
+/* Contact Section */
+/* .contact{
+
+} */
+.contact-content{
+    text-align: center;
+}
+.contact-item{
+    width: 30%;
+}
+.contact-item i{
+    font-size: 40px;
+    color: var(--mainColor );
+}
+.contact-item h3{
+    margin: 10px 0px;
+}
+.contact-item span{
+    color: var(--grayColor);
+}
+.contact-item.mg{
+    margin: 0% 5%;
+}
+.contact-form{
+    text-align: center;
+    margin: 40px 0px;
+}
+.contact-form .input{
+    font-family: inherit;
+    font-size: inherit;
+    height: 40px;
+    border: none;
+    border-bottom: 3px solid #eee;
+    border-radius: 7px;
+    padding: 0px 10px;
+    width: 365px ;
+    color: #848fa0;
+    background: #F4F4F4;
+    margin: 7px 0px;
+    /* opacity: 0.5; */
+    transition: border-bottom 0.5s , color 0.5s;
+}
+.input::placeholder{
+    opacity: 0.5;
+}
+.input:focus::placeholder{
+    opacity: 1;
+}
+.input:focus{
+    color: #354052;
+}
+.input:focus{
+    border-bottom: 3px solid var(--mainColor );
+}
+.contact-form .input.width{
+    width: 736px;
+}
+.form{
+    display: block;
+}
+textarea{
+    padding: 10px 10px;
+    min-height: 80px;
+    resize: vertical; /* عشان يضل ثابت عمودي*/
+}
+.contact-form .btn{
+    position: relative;
+    cursor: pointer;
+    color: var(--whiteColor);
+    background: var(--mainColor );
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: inherit;
+    padding: 10px 35px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.contact-form button .icon {
+    position: relative;
+    font-size: 22px;
+    top:1.8px;
+    left: 5px;
+    margin-right: 10px;
+}

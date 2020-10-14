@@ -1,0 +1,56 @@
+/* Services Section */
+.service{
+    border: #e3e3e3 solid 1px ;
+}
+.service-item{
+    width: 50%;
+}
+.service-item .section-header{
+    text-align: left;
+}
+.service-item .section-header .line{
+    margin: 0 0 66px 0; /*top right bottom left*/
+}
+.service-item-description{
+    padding-right: 20px;
+    color: var(--grayColor);
+    line-height: 1.65;
+    font-size: 18px;
+}
+.service-list{
+    list-style: none;
+}
+.service-list li{
+    color: var(--grayColor);
+}
+.service-list li i {
+    color: var(--mainColor );
+    border: 1px solid var(--mainColor );
+    padding: 10px 7px;
+    border-radius: 50%;
+}
+.service-item-image img{
+    width: 100%;
+}
+.service-bollets{
+    list-style: none;
+    text-align: center;
+}
+.service-bollets li{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #e3e3e3;
+    margin: 10px 5px;
+    border-radius: 50%;
+    transition: color 0.5s , width 0.2s , height 0.2s;
+}
+.service-bollets li.active{
+    background: var(--mainColor );
+}
+.service-bollets li:hover{
+    background: var(--mainColor );
+    border-radius: 30%;
+    width: 15px;
+    height: 10px;  /* try it :D */
+}

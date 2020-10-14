@@ -1,0 +1,100 @@
+/* Header Section */
+.header{
+    position: fixed; /* البوزيشين فيكسد وابسليوت بيحولوا العنصر من ديسبلاي بلوك الى ديسبلاي ان لاين بلوك*/
+    width: 100%; /*عشان نرجع الهيدر لاصله*/
+    z-index: 10;
+    background: rgba(0, 0, 0, 1);
+}
+.header .logo{
+    width: 40%;
+}
+.header .logo img {
+    /* width: auto; */
+    /* height: auto; */
+    margin-top: 15px;
+}
+.header .nav{
+    width:60%;
+    list-style: none;
+    text-align: right;
+}
+.clear{ /* first solution to solve float problem */
+    clear: both;
+}
+/*.header-content{*/ /* second solution to solve float problem*/
+    /*overflow: hidden; *//*  لو انا عامل اوفرفلو هيدن للهيدر وفي دروب داون الدروب داون هاي مش هتظهر والحل انك تستخدم الحل القديم تاع الكلير ف عشان هيك هنعمل كومنت هان */
+/*}*/
+.header .nav > li{
+    display: inline-block ;
+    text-align: right;
+}
+.header .nav > li > a{
+    color: var(--whiteColor);
+    display: block;
+    padding: 30px 13px; /* يفضل للa نعملها*/
+    font-size: 16px;
+}
+.header .nav > li > a::after,.header .nav > li > a.active::after{
+    content: "";
+    display: block; 
+    height: 3px;
+    margin-top: 2px;
+    background-color: var(--mainColor );
+    transition: width 0.4s; /*العنصر اللي بيتاثر هوا اللي بحطله الترانزيشين*/
+}
+.header .nav > li > a.active::after{
+    width:100%;
+}
+
+.header .nav > li > a::after{
+    width: 0%;
+}
+
+.header .nav > li > a:hover::after{ /* psuedo class then psudeo element*/
+    width: 100%;
+}
+
+.dropdown{
+    position: relative;
+}
+.arrow {
+    position: absolute;
+    display: inline-block;
+    border: solid var(--whiteColor);
+    border-width: 0 2.5px 2.5px 0;
+    bottom:42px;
+    left: 53px;
+    padding: 2.5px;
+}
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transition: ease 0.5s;
+}
+.dropdown:hover .down{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.dropdown-menu {
+    position: absolute;
+    background-color: var(--mainColor );
+    width: 150px;
+    text-align: left;
+    left: -50%;
+    top: 75%;
+    opacity: 0;
+    visibility:hidden;
+    transition: opacity 0.5s;
+}
+.dropdown-menu a{
+    display: block;
+    padding: 10px;
+    color: var(--whiteColor);
+}
+.dropdown:hover .dropdown-menu{ /*لما اشاور على الدروب داون يجيبلي الدروب داون مينيو ويعملّي فيها اوباسيتي 1 وفيسيبيليتي فيسيبل*/
+    opacity: 1;
+    visibility:visible;
+}
+.dropdown-menu li{
+    list-style-type: none;
+}

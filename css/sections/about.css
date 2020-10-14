@@ -1,0 +1,35 @@
+/* About Section */
+/* .about{
+
+} */
+
+.about-content{
+    /* overflow:hidden; او بنحلهاعن طريق كلير*/
+}
+.about-item{
+    width: 30%;
+    text-align: center;
+    border: 1px solid #EEE;
+    padding: 50px 20px;
+}
+.about-item:hover .about-item-title{ /*لما اشاور على الايتيم هاتلي التايتل وخلّيلي لونه ابيض*/ 
+    color: var(--whiteColor);
+}
+.about-item.mg{ /*هادا معناته عنصر واحد ماخد الكلاسات هاي*/
+    margin:0px 5%; /*خود بالك مش 5 بكسل عشان اليي ضل من مية في المية 10 في المية ف خمسة من اليمين وخمسة من الشمال*/
+}
+.about-item .icon{
+    color: var(--mainColor );
+}
+.about-item-title{
+    text-transform: capitalize;
+    transition: color 0.5s; /*عشان بعد بنص ثانية يصير الترانزيشين*/
+}
+.about-item-description{
+    line-height: 1.6;
+    color: var(--grayColor);
+}
+.about-item-link{
+    color: var(--mainColor );
+    text-transform: capitalize;
+}

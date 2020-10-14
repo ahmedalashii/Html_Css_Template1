@@ -1,0 +1,42 @@
+/* Testimonial Section */
+.testimonial{
+    background-image: url(../../images/background/background3.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 400px;
+}
+.testimonial-content{
+    padding: 100px 0px;
+    margin: auto; /*عشان اوسّط ايليمنت ماخد ويدث */
+    width: 80%;
+}
+.testimonial-item{
+    width: 50%;
+    color: var(--whiteColor);
+}
+.testimonial-toplayer{
+    padding: 10px 2px 20px 100px;
+    position: relative;
+}
+.testimonial-toplayer img{
+    position: absolute;
+    top: 2px;
+    left: 0;
+    border-radius: 50%;
+    transition: border-radius 0.5s , ease 0.5s;
+}
+.testimonial-toplayer h3{
+    font-weight: 700;
+    margin: 5px 0;
+}
+.testimonial-toplayer span{
+    color: var(--mainColor );
+}
+.testimonial-description{
+    line-height: 1.6;
+    font-size:17px;
+}
+.testimonial-toplayer img:hover{
+    border-radius: 30%;
+}

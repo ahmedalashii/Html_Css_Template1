@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML CSS Template 1 </title>
+        <meta charset="utf-8"/>
+        <meta name="keywords" content=""/>
+        <meta name="description" content=""/>
+        <!-- Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <!-- Css File -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/utils.css">
+            <!-- Sections -->
+            <link rel="stylesheet" href="css/sections/header.css">
+            <link rel="stylesheet" href="css/sections/home.css">
+            <link rel="stylesheet" href="css/sections/about.css">
+            <link rel="stylesheet" href="css/sections/portfolio.css">
+            <link rel="stylesheet" href="css/sections/offer.css">
+            <link rel="stylesheet" href="css/sections/services.css">
+            <link rel="stylesheet" href="css/sections/numbers.css">
+            <link rel="stylesheet" href="css/sections/prices.css">
+            <link rel="stylesheet" href="css/sections/testimonial.css">
+            <link rel="stylesheet" href="css/sections/team.css">
+            <link rel="stylesheet" href="css/sections/blog.css">
+            <link rel="stylesheet" href="css/sections/contact.css">
+            <link rel="stylesheet" href="css/sections/footer.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <div class="header">
+           <div class="header-content">
+                <div class="container">            
+                    <div class="logo fleft">
+                        <a href="#"><img src="images/Logo-alt2.png" alt="Logo Image" draggable="false"></a>  <!-- draggable >> عشان نعطل انو نسحب اللوجو بالماوس-->    
+                    </div>
+                        <ul class="nav fleft">
+                            <li><a href="#home" class="active">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#offer">Services</a></li>
+                            <li><a href="#prices">Prices</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li class="dropdown">
+                                <a href="#blog">Blog<i class="arrow down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="../HTML_CSS_Template 1/blog-single.html">Blog Post</a> </li>
+                                </ul>
+                            </li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    <div class="clear"></div>
+                </div> <!-- ./container -->
+           </div> 
+        </div> <!-- ./header -->
+
+        <!-- Home Section -->
+        <div class="home" id="home">
+            <div class="overlay">
+                <div class="home-content"> <!--  يفضل يفضل يفضل اعطي العناصر كلها كلاس عشان لما اغير في الاتش تي ام ال هان التاغ مروحش ع السي اس اس واغير التاغ كمان هناك-->
+                    <h1 class="title1 uppercase">we are creative agency</h1> <!-- يفضل اكتب الكلام small وانا في السي اس اس اخليها كابيتال-->
+                    <p class="home-description">
+                        Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
+                    </p>
+                    <button class="btn btn-start hover-opacity">Get Started !</button> <!-- two classes -->
+                    <button class="btn btn-learn hover-opacity">Learn More</button>
+                </div> <!-- ./home-content -->
+            </div> <!-- ./ overlay-->
+        </div> <!-- ./home-->
+
+        <!-- Section Header الهيدر تاع كل سكشن-->
+        <!-- <div class="section-header">
+            <h2 class="section-title">welcome to website</h2>
+            <span class="line"></span>
+        </div> -->
+
+        <!-- About Section -->
+        <div class="about pd-y" id="about">
+            <div class="section-header">
+                <h2 class="section-title mg-b-10">welcome to website</h2>
+                <span class="line"></span>
+            </div> <!-- ./section-header -->
+            <div class="container">
+                <div class="about-content ohidden">
+                    <div class="about-item ltr-effect fleft">
+                        <i class="icon fa fa-cogs fa-2x mg-b-10"></i>
+                        <h2 class="about-item-title mg-b-15">fully customizible</h2>
+                        <p class="about-item-description mg-b-10">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
+                        </p>
+                        <a href="#" class="about-item-link">read more</a>
+                    </div> <!-- ./about-item -->
+
+                    <div class="about-item mg ltr-effect fleft"> <!-- mg >> margin-->
+                        <i class="icon fa fa-magic fa-2x mg-b-10"></i>
+                        <h2 class="about-item-title mg-b-15">awesome features</h2>
+                        <p class="about-item-description mg-b-10">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
+                        </p>
+                        <a href="#" class="about-item-link">read more</a>
+                    </div> <!-- ./about-item -->
+
+                    <div class="about-item ltr-effect fleft">
+                        <i class="icon fa fa-mobile fa-2x mg-b-10"></i>
+                        <h2 class="about-item-title mg-b-15">fully responsive</h2>
+                        <p class="about-item-description mg-b-10">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
+                        </p>
+                        <a href="#" class="about-item-link">read more</a>
+                    </div> <!-- ./about-item-->
+
+                    </div> <!-- ./about-content-->
+            </div> <!-- ./container-->
+        </div> <!-- ./about pd-y -->
+
+        <!-- Portfolio Section -->
+        <div class="portfolio pd-y bg-gray" id="portfolio">
+            <div class="section-header">
+                <h2 class="section-title mg-b-10" id="about">featured works</h2>
+                <span class="line"></span>
+            </div> <!-- section-header -->
+
+            <div class="container">
+                <div class="portfolio-content ohidden">
+                    <div class="portfolio-item mg-b-25 fleft">
+                       <img src="images/work/work1.webp" alt="">
+                       <div class="layer-content">
+                            <div class="layer-info">
+                                <span class="category mg-b-5 uppercase">category</span>
+                                <h3 class="layer-content-title mg-b-10">lorem, ipsum color.</h3>
+                                <a href="#"><i class="fa fa-external-link"></i></a>
+                                <a href="#"><i class="fa fa-search"></i></a>
+                            </div> <!-- ./layer-info -->
+                       </div> <!-- ./layer-content -->
+                    </div> <!-- ./portfolio-item -->
+                    <div class="portfolio-item mg mg-b-25 fleft"> <!-- mg >> margin-->
+                        <img src="images/work/work2.webp" alt="">
+                        <div class="layer-content">
+                            <div class="layer-info">
+                                <span class="category mg-b-5 uppercase">category</span>
+                                <h3 class="layer-content-title mg-b-10">lorem, ipsum color.</h3>
+                                <a href="#"><i class="fa fa-external-link"></i></a>
+                                <a href="#"><i class="fa fa-search""></i></a>
+                            </div> <!-- ./layer-info -->
+                       </div> <!-- ./layer-content -->
+                    </div> <!-- ./portfolio-item -->
+
+                    <div class="portfolio-item mg-b-25 fleft">
+                        <img src="images/work/work3.webp" alt="">
+                        <div class="layer-content">
+                            <div class="layer-info">
+                                <span class="category mg-b-5 uppercase">category</span>
+                                <h3 class="layer-content-title mg-b-10">lorem, ipsum color.</h3>
+                                <a href="#"><i class="fa fa-external-link"></i></a>
+                                <a href="#"><i class="fa fa-search""></i></a>
+                            </div> <!-- ./layer-info -->
+                       </div> <!-- ./layer-content -->
+                    </div> <!-- ./portfolio-item-->
+
+                    <div class="portfolio-item mg-b-25 fleft">
+                        <img src="images/work/work4.webp" alt="">
+                        <div class="layer-content">
+                            <div class="layer-info">
+                                <span class="category mg-b-5 uppercase">category</span>
+                                <h3 class="layer-content-title mg-b-10">lorem, ipsum color.</h3>
+                                <a href="#"><i class="fa fa-external-link"></i></a>
+                                <a href="#"><i class="fa fa-search""></i></a>
+                            </div> <!-- ./layer-info -->
+                       </div> <!-- ./layer-content -->
+                    </div> <!-- ./portfolio-item-->
+
+                    <div class="portfolio-item mg mg-b-25 fleft">
+                        <img src="images/work/work5.webp" alt="">
+                        <div class="layer-content">
+                            <div class="layer-info">
+                                <span class="category mg-b-5 uppercase">category</span>
+                                <h3 class="layer-content-title mg-b-10">lorem, ipsum color.</h3>
+                                <a href="#"><i class="fa fa-external-link"></i></a>
+                                <a href="#"><i class="fa fa-search""></i></a>
+                            </div> <!-- ./layer-info -->
+                       </div> <!-- ./layer-content -->
+                    </div> <!-- ./portfolio-item-->
+
+                    <div class="portfolio-item mg-b-25 fleft">
+                        <img src="images/work/work6.webp" alt="">
+                        <div class="layer-content">
+                            <div class="layer-info">
+                                <span class="category mg-b-5 uppercase">category</span>
+                                <h3 class="layer-content-title mg-b-10">lorem, ipsum color.</h3>
+                                <a href="#"><i class="fa fa-edit"></i></a>
+                                <a href="#"><i class="fa fa-search""></i></a>
+                            </div> <!-- ./layer-info -->
+                       </div> <!-- ./layer-content -->
+                    </div> <!-- ./portfolio-item-->
+                 </div> <!-- ./portfolio-content-->
+            </div> <!-- ./container-->
+            
+        </div> <!-- ./portfolio pd-y-->
+
+        <!-- Offer Section -->
+        <div class="offer pd-y" id="offer">
+            <div class="section-header">
+                <h2 class="section-title mg-b-10">what we offer</h2>
+                <span class="line"></span>
+            </div> <!-- ./section-header -->
+            <div class="container">
+                <div class="offer-content ohidden">
+                    <div class="offer-item ltr-effect mg-b-20 fleft"> 
+                        <i class="icon fa fa-diamond fa-2x"></i>
+                        <h3 class="offer-item-title mg-b-15">app development</h3>
+                        <p class="offer-item-description">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+                    </div> <!-- ./offer-item -->
+
+                    <div class="offer-item mg ltr-effect mg-b-20 fleft" > 
+                        <i class="icon fa fa-rocket fa-2x"></i>
+                        <h3 class="offer-item-title mg-b-15">graphic design</h3>
+                        <p class="offer-item-description">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+                    </div> <!-- ./offer-item -->
+
+                    <div class="offer-item ltr-effect mg-b-20 fleft" > 
+                        <i class="icon fa fa-cogs fa-2x"></i>
+                        <h3 class="offer-item-title mg-b-15">creative idea</h3>
+                        <p class="offer-item-description">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+                    </div> <!-- ./offer-item -->
+
+                    <div class="offer-item ltr-effect mg-b-20 fleft" > 
+                        <i class="icon fa fa-diamond fa-2x"></i>
+                        <h3 class="offer-item-title mg-b-15">marketing</h3>
+                        <p class="offer-item-description">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+                    </div> <!-- ./offer-item -->
+
+                    <div class="offer-item mg ltr-effect mg-b-20 fleft" > 
+                        <i class="icon fa fa-pencil fa-2x"></i>
+                        <h3 class="offer-item-title mg-b-15">awesome support</h3>
+                        <p class="offer-item-description">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+                    </div> <!-- ./offer-item -->
+
+                    <div class="offer-item ltr-effect mg-b-20 fleft" > 
+                        <i class="icon fa fa-flask fa-2x"></i>
+                        <h3 class="offer-item-title mg-b-15">brand design</h3>
+                        <p class="offer-item-description">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+                    </div> <!-- ./offer-item -->
+                </div> <!-- ./offer-content -->
+            </div> <!-- ./container -->
+        </div> <!-- ./offer pd-y -->
+
+        <!-- Services Section -->
+        <div class="service pd-y bg-gray">
+            <div class="container">
+                <div class="service-item fleft">
+                    <div class="section-header">
+                        <h2 class="section-title mg-b-10">why choose us</h2>
+                        <span class="line"></span>
+                    </div> <!-- ./section-header -->
+                    <p class="service-item-description mg-b-20">
+                        Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.
+                    </p>
+                    <ul class="service-list">
+                        <li class="mg-b-10"><i class="fa fa-check fa-lg"></i>  Quis varius quam quisque id diam vel quam elementum.</li>
+                        <li class="mg-b-10"><i class="fa fa-check fa-lg"></i>  Mauris augue neque gravida in fermentum.</li>
+                        <li class="mg-b-10"><i class="fa fa-check fa-lg"></i>  Orci phasellus egestas tellus rutrum.</li>
+                        <li class="mg-b-10"><i class="fa fa-check fa-lg"></i>  Nec feugiat nisl pretium fusce id velit ut tortor pretium.</li>
+                    </ul> <!-- ./service-list-->
+                </div> <!-- ./service-item -->
+                <div class="service-item fleft">
+                    <div class="service-item-image">
+                        <img src="images/about/about1.webp" alt="Just a Man Smiles :D ">
+                    </div> <!-- ./service-item-image -->
+                    <ul class="service-bollets">
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> <!-- ./service-item-->
+                <div class="clear"></div>
+            </div> <!-- ./container -->
+        </div> <!-- ./service pd-y -->
+
+        <!-- Numbers Section -->
+        <div class="numbers"> <!-- ما حطينا كلاس بي دي واي عشان الابن مالي الاب كله فالبايدنج ساعتها مش هيشتغل لانو لو عندي ابن ماخد ابسليوت وجوا الاب ومالي الاب كله البادينج تاع الاب مش هيشتغل-->
+            <div class="overlay">
+                <div class="container">
+                    <div class="numbers-items ohidden">
+                        <div class="number-item fleft">
+                            <i class="icon fa fa-users fa-2x"></i>
+                            <h3 class="number-item-title uppercase">451</h3>
+                            <span class="number-item-description">happy clients</span>
+                        </div>
+                        <div class="number-item fleft">
+                            <i class="icon fa fa-trophy fa-2x"></i>
+                            <h3 class="number-item-title">12</h3>
+                            <span class="number-item-description">awards won</span>  
+                        </div>
+                        <div class="number-item fleft">
+                            <i class="icon fa fa-coffee fa-2x"></i>
+                            <h3 class="number-item-title">154K</h3>
+                            <span class="number-item-description">cups of coffee</span>  
+                        </div>
+                        <div class="number-item fleft">
+                            <i class="icon fa fa-file fa-2x"></i>
+                            <h3 class="number-item-title">45</h3>
+                            <span class="number-item-description">projects completed</span>
+                        </div>
+                    </div> <!-- ./numbers-items -->
+                </div> <!-- ./container -->
+            </div> <!-- ./overlay -->
+        </div> <!-- ./numbers -->
+
+        <!-- Prices Section -->
+        <div class="prices pd-y" id="prices">
+            <div class="section-header">
+                <h2 class="section-title mg-b-10">pricing table</h2>
+                <span class="line"></span>
+            </div> <!-- ./section-header -->
+            <div class="container">
+                <div class="prices-plans ohidden">
+                    <div class="prices-item ttb-effect fleft">
+                        <span class="prices-item-title uppercase">basic blan</span>
+                        <div class="price-per-month">
+                            <h3 class="dollar">$9</h3>
+                            <span class="month">/month</span>
+                        </div> <!-- ./prices-item-title -->
+                        <ul class="prices-list">
+                            <li class="mg-b-10">1GB Disk Space</li>
+                            <li class="mg-b-10">100 Email Account</li>
+                            <li class="mg-b-10">24/24 Support</li>
+                        </ul> <!-- ./prices-list -->
+                        <button class="prices-item-purchase">purchase now</button>
+                    </div> <!-- ./prices-item -->
+
+                    <div class="prices-item mg ttb-effect fleft">
+                        <span class="prices-item-title uppercase">silver blan</span>
+                        <div class="price-per-month">
+                            <h3 class="dollar">$19</h3>
+                            <span class="month">/month</span>
+                        </div> <!-- ./prices-item-title -->
+                        <ul class="prices-list">
+                            <li class="mg-b-10">1GB Disk Space</li>
+                            <li class="mg-b-10">100 Email Account</li>
+                            <li class="mg-b-10">24/24 Support</li>
+                        </ul> <!-- ./prices-list -->
+                        <button class="prices-item-purchase">purchase now</button>
+                    </div> <!-- ./prices-item -->
+
+                    <div class="prices-item ttb-effect fleft">
+                        <span class="prices-item-title uppercase">gold blan</span>
+                        <div class="price-per-month">
+                            <h3 class="dollar">$39</h3>
+                            <span class="month">/month</span>
+                        </div> <!-- ./prices-item-title -->
+                        <ul class="prices-list">
+                            <li class="mg-b-10">1GB Disk Space</li>
+                            <li class="mg-b-10">100 Email Account</li>
+                            <li class="mg-b-10">24/24 Support</li>
+                        </ul> <!-- ./prices-list -->
+                        <button class="prices-item-purchase">purchase now</button>
+                    </div> <!-- ./prices-item -->
+
+                </div> <!-- ./prices-plans -->
+            </div> <!-- ./container -->
+        </div> <!-- ./prices pd-y -->
+
+        <!-- Testimonial Section -->
+        <div class="testimonial">
+            <div class="overlay">
+                <div class="container">
+                    <div class="testimonial-content ohidden">
+                        <div class="testimonial-item fleft">
+                            <div class="testimonial-toplayer">
+                                <img src="images/Testimonial/perso1.webp" alt="Person one" class="mg-b-10">
+                                <h3 class="mg-b-5">John Doe</h3>
+                                <span>Web Designer</span>
+                            </div> <!-- ./testimonial-toplayer -->
+                            <p class="testimonial-description">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+                        </div> <!-- ./testimonial-item -->
+                        <div class="testimonial-item fleft">
+                            <div class="testimonial-toplayer">
+                                <img src="images/Testimonial/perso2.webp" alt="Person Two" class="mg-b-10">
+                                <h3 class="mg-b-5">John Doe</h3>
+                                <span>Web Designer</span>
+                            </div> <!-- ./testimonial-toplayer -->
+                            <p class="testimonial-description">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+                        </div> <!-- ./testimonial-item -->
+                    </div> <!-- ./testimonial-content -->
+                </div> <!-- ./container -->
+            </div> <!-- ./overlay -->
+        </div> <!--./testimonial pd-y -->
+
+        <!-- Team Section-->
+        <div class="team pd-y" id="team">
+            <div class="section-header">
+                <h2 class="section-title mg-b-10">our team</h2>
+                <span class="line"></span>
+            </div> <!-- /section-header-->
+            <div class="container">
+                <div class="team-content ohidden">
+                    <div class="team-item ttb-effect fleft">
+                        <div class="team-photo">
+                            <img src="images/team/team1.webp" alt="John Doe !">
+                            <div class="team-overlay">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div> <!-- ./team-overlay -->
+                        </div> <!-- ./team-photo -->
+                        <div class="team-info">
+                            <h3 class="team-info-title">john doe</h3>
+                            <span class="team-info-description">web designer</span>
+                        </div>
+                    </div> <!-- ./team-item-->
+
+                    <div class="team-item ttb-effect mg fleft">
+                        <div class="team-photo">
+                            <img src="images/team/team2.webp" alt="John Doe !">
+                            <div class="team-overlay">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div> <!-- ./team-overlay -->
+                        </div> <!-- ./team-photo -->
+                        <div class="team-info">
+                            <h3 class="team-info-title">john doe</h3>
+                            <span class="team-info-description">web designer</span>
+                        </div>
+                    </div> <!-- ./team-item-->
+
+                    <div class="team-item ttb-effect fleft">
+                        <div class="team-photo">
+                            <img src="images/team/team3.webp" alt="John Doe !">
+                            <div class="team-overlay">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div> <!-- ./team-overlay -->
+                        </div> <!-- ./team-photo -->
+                        <div class="team-info">
+                            <h3 class="team-info-title">john doe</h3>
+                            <span class="team-info-description">web designer</span>
+                        </div>
+                    </div> <!-- ./team-item-->
+                </div> <!-- ./team-content-->
+            </div> <!-- ./container -->
+        </div> <!-- ./team pd-y -->
+
+        <!-- Blog Section (Recent News) -->
+        <div class="blog pd-y bg-gray" id="blog">
+            <div class="section-header">
+                <h2 class="section-title mg-b-10">recent news</h2>
+                <span class="line"></span>
+            </div> <!-- ./section-header -->
+            <div class="container">
+                <div class="blog-content ohidden">
+                    <div class="blog-item fleft">
+                        <div class="blog-item-image">
+                            <img src="images/blog/blog1.webp" alt="Blog 1 !">
+                        </div> <!-- ./blog-item-image -->
+                        <div class="blog-item-info">
+                            <ul class="blog-item-list">
+                                <li>
+                                    <i class="fa fa-user"></i>
+                                    John Doe
+                                </li>
+                                <li>
+                                    <i class="fa fa-clock-o"></i>
+                                    9 OCT
+                                </li>
+                                <li>
+                                    <i class="fa fa-comments"></i>
+                                    75
+                                </li>
+                            </ul> <!-- ./blog-item-list -->
+                            <h3 class="blog-item-title">Molestie at elementum eu facilisis sed odio</h3>
+                            <p class="blog-item-description mg-b-5">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                            <a href="../HTML_CSS_Template 1/blog-single.html" class="blog-item-link">read more</a>
+                        </div> <!-- ./blog-item-info -->
+                  </div> <!-- ./blog-item -->
+                  <div class="blog-item mg fleft">
+                        <div class="blog-item-image">
+                            <img src="images/blog/blog2.webp" alt="Blog 2 !">
+                        </div> <!-- ./blog-item-image -->
+                        <div class="blog-item-info">
+                            <ul class="blog-item-list">
+                                <li>
+                                    <i class="fa fa-user"></i>
+                                    John Doe
+                                </li>
+                                <li>
+                                    <i class="fa fa-clock-o"></i>
+                                    9 OCT
+                                </li>
+                                <li>
+                                    <i class="fa fa-comments"></i>
+                                    75
+                                </li>
+                            </ul> <!-- ./blog-item-list -->
+                            <h3 class="blog-item-title">Molestie at elementum eu facilisis sed odio</h3>
+                            <p class="blog-item-description">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                            <a href="../HTML_CSS_Template 1/blog-single.html" class="blog-item-link">read more</a>
+                        </div> <!-- ./blog-item-info -->
+                  </div> <!-- ./blog-item -->
+                  <div class="blog-item fleft">
+                    <div class="blog-item-image">
+                        <img src="images/blog/blog3.webp" alt="Blog 3 !">
+                    </div>
+                    <div class="blog-item-info">
+                        <ul class="blog-item-list">
+                            <li>
+                                <i class="fa fa-user"></i>
+                                John Doe
+                            </li>
+                            <li>
+                                <i class="fa fa-clock-o"></i>
+                                9 OCT
+                            </li>
+                            <li>
+                                <i class="fa fa-comments"></i>
+                                75
+                            </li>
+                        </ul> <!-- ./blog-item-list -->
+                        <h3 class="blog-item-title">Molestie at elementum eu facilisis sed odio</h3>
+                        <p class="blog-item-description">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                        <a href="../HTML_CSS_Template 1/blog-single.html" class="blog-item-link">read more</a>
+                    </div> <!-- ./blog-item-info -->
+                    </div> <!-- ./blog-item -->
+                </div> <!-- ./blog-content-->
+            </div> <!-- ./container -->
+        </div> <!-- ./blog pd-y -->
+
+        <!-- Contact Section -->
+        <div class="contact pd-y" id="contact">
+            <div class="section-header">
+                <h2 class="section-title mg-b-10">get in touch</h2>
+                <span class="line"></span>
+            </div> <!-- section-header -->
+            <div class="container">
+                <div class="contact-content ohidden">
+                    <div class="contact-item fleft">
+                        <i class="fa fa-phone"></i>
+                        <h3>Phone</h3>
+                        <span>512-421-3940</span>
+                    </div> <!-- ./contact-item -->
+                    <div class="contact-item mg fleft">
+                        <i class="fa fa-envelope"></i>
+                        <h3>Email</h3>
+                        <span>email@support.com</span>
+                    </div> <!-- ./contact-item -->
+                    <div class="contact-item fleft">
+                        <i class="fa fa-map-marker"></i>
+                        <h3>Address</h3>
+                        <span>1739 Bubby Drive</span>
+                    </div> <!-- ./contact-item -->
+                </div> <!-- ./contact-content -->
+                <div class="contact-form">
+                    <form action="" method="post" class="form">
+                        <div class="namemail">
+                            <input type="text" placeholder="Name" class="input">
+                            <input type="email" placeholder="Email" class="input" autocomplete="on">
+                        </div>
+                        <input type="text" placeholder="Subject" class="input width">
+                        <textarea name="message" id="message" cols="30" rows="60" placeholder="Message" class="input width"></textarea>
+                        <button class="btn btn-learn hover-opacity" type="submit"><i class="icon fa fa-telegram"></i>Send Message</button>
+                    </form>
+                </div>
+            </div> <!-- ./container -->
+        </div> <!-- ./contact-section -->
+
+        <!-- Footer Section -->
+        <div class="footer pd-y">
+            <a href="#" class="hover-opacity"><img src="images/Logo-alt2.png" alt="This is the flag of the company ! " draggable="false"></a>
+            <ul class="footer-links">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+            </ul> <!-- ./footer-links -->
+            <p class="uppercase">copyright &copy; 2020. all rights reserved. designed by <a href="#">ahmed alashi</a></p>
+        </div> <!-- ./footer -->
+    </body> <!-- /body -->
+</html>

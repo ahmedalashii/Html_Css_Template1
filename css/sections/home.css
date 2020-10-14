@@ -1,0 +1,45 @@
+/* Home Section (Home Div) */ 
+.home .title1{
+    color: white;
+    font-size: 3.5rem;
+}
+.home-description{
+    margin: 20px 0px;
+    color: var(--whiteColor);
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+.home{
+    height: 100vh;
+    background-image: url(../../images/background/background1.webp);
+    background-position: center;
+    background-size: cover; /*we must do this everytime*/ /*عشان تظهر في كل المكان اللي هيا فيه*/ /*css3*/
+    position: relative;
+    background-attachment: fixed; /* عشان تتحرك الصورة لما اعمل سكرول داون واب*/
+}
+.home-content{ /* remember hero image technique */
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.home .btn{
+    min-width: 160px;
+    padding: 16px 0px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer; /*عشان شكل الماوس لما احط الماوس ع البوتون*/
+    font-size: 18px;
+}
+.home .btn-start{
+    background: var(--whiteColor);
+    margin-right: 10px;
+    /* transition: opacity 0.2s; */
+}
+.home .btn-learn{
+    background: var(--mainColor );
+    color: var(--whiteColor);
+    /* transition: opacity 0.2s; */
+}

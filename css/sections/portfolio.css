@@ -1,0 +1,81 @@
+/* Portfolio Section */
+.portfolio{
+    border: #e3e3e3 solid 1px ;
+}
+.portfolio-item{
+    width: 32%;
+    position: relative;
+    padding: 20px;
+}
+.portfolio-item img{
+    width: 100%;
+}
+.portfolio-item.mg {
+    margin: 0% 2%;
+}
+.portfolio-item .layer-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility:hidden;
+    transition: opacity 0.3s    ;
+}
+.portfolio-item:hover .layer-content{
+    opacity: 1;
+    visibility:visible;
+
+}
+.portfolio-item:hover .layer-content-title,
+.portfolio-item:hover .layer-content a,
+.portfolio-item:hover .layer-content .category{
+    top: 0px;
+    opacity: 1;
+}
+
+.layer-content .layer-info{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 70%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.layer-content .category{
+     color: var(--mainColor );
+     display: block;
+     position: relative;
+     opacity: 0;
+     top: 10px;
+     transition: top 0.5s , opacity 0.5s;
+     transition-delay: 0.2s; /*هاي مش هتستنى*/
+}
+.layer-content-title{
+    text-transform: capitalize;
+    color: var(--whiteColor);
+    font-size: 23px;
+    position: relative;
+    opacity: 0;
+    top: 10px;
+    transition: top 0.5s , opacity 0.5s;
+    transition-delay: 0.4s;
+}
+.layer-content a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: var(--mainColor );
+    position: relative;
+    opacity: 0;
+    top: 10px;
+    transition: top 0.5s , opacity 0.5s;
+    transition-delay: 0.6s;
+}
+.layer-content a i{
+    line-height: 40px;
+    color: var(--whiteColor) ;
+ 
+}

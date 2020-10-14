@@ -1,0 +1,64 @@
+/* Reply Form */
+.reply-form{
+    text-align: left;
+    margin: 40px 0px;
+}
+.reply-form .input{
+    font-family: inherit;
+    font-size: inherit;
+    height: 40px;
+    border: none;
+    border-bottom: 3px solid #eee;
+    border-radius: 7px;
+    padding: 0px 10px;
+    width: 365px ;
+    color: #848fa0;
+    background: #F4F4F4;
+    margin: 7px 0px;
+    /* opacity: 0.5; */
+    transition: border-bottom 0.5s , color 0.5s;
+}
+.input::placeholder{
+    opacity: 0.5;
+}
+.input:focus::placeholder{
+    opacity: 1;
+}
+.input:focus{
+    color: #354052;
+}
+.input:focus{
+    border-bottom: 3px solid var(--mainColor );
+}
+.reply-form .input.width{
+    width: 736px;
+}
+.form{
+    display: block;
+}
+textarea{
+    padding: 10px 10px;
+    min-height: 150px;
+    resize: vertical; /* عشان يضل ثابت عمودي*/
+}
+.reply-form .btn{
+    position: relative;
+    cursor: pointer;
+    color: var(--whiteColor);
+    background: var(--mainColor );
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: inherit;
+    padding: 10px 35px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    display: block;
+    margin-top: 10px;
+}
+.reply-form button .icon {
+    position: relative;
+    font-size: 22px;
+    top:1.8px;
+    left: 5px;
+    margin-right: 10px;
+}

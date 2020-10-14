@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog Post</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Css File -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <!-- Sections -->
+    <link rel="stylesheet" href="css/sections/header.css">
+    <link rel="stylesheet" href="css/sections/home.css">
+    <link rel="stylesheet" href="css/sections/about.css">
+    <link rel="stylesheet" href="css/sections/portfolio.css">
+    <link rel="stylesheet" href="css/sections/offer.css">
+    <link rel="stylesheet" href="css/sections/services.css">
+    <link rel="stylesheet" href="css/sections/numbers.css">
+    <link rel="stylesheet" href="css/sections/prices.css">
+    <link rel="stylesheet" href="css/sections/testimonial.css">
+    <link rel="stylesheet" href="css/sections/team.css">
+    <link rel="stylesheet" href="css/sections/blog.css">
+    <link rel="stylesheet" href="css/sections/contact.css">
+    <link rel="stylesheet" href="css/sections/footer.css">
+    <link rel="stylesheet" href="css/breadcrumb.css">
+    <link rel="stylesheet" href="css/sections/replyform.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header" style="background-color: rgba(0, 0, 0,1);">
+        <div class="header-content">
+            <div class="container">
+                <div class="logo fleft">
+                    <a href="#"><img src="images/Logo-alt2.png" alt="Logo Image" draggable="false"></a>
+                    <!-- draggable >> عشان نعطل انو نسحب اللوجو بالماوس-->
+                </div>
+                <ul class="nav fleft">
+                    <li><a href="./index.html#home">Home</a></li>
+                    <li><a href="./index.html#about">About</a></li>
+                    <li><a href="./index.html#portfolio">Portfolio</a></li>
+                    <li><a href="./index.html#offer">Services</a></li>
+                    <li><a href="./index.html#prices">Prices</a></li>
+                    <li><a href="./index.html#team">Team</a></li>
+                    <li class="dropdown">
+                        <a href="#">Blog<i class="arrow down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="../HTML_CSS_Template 1/blog-single.html">Blog Post</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="./index.html#contact">Contact</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div> <!-- ./container -->
+        </div>
+    </div> <!-- ./header -->
+
+    <!-- Blog Page Title -->
+    <div class="blog-title bg-gray pd-y">
+        <div class="container">
+            <div class="blog-title-content ohidden">
+                <h2 class="fleft">Blog Page</h2>
+                <ul class="breadcrumb fright">
+                    <li><a href="../HTML_CSS_Template 1/index.html">Home</a></li>
+                    <li><a href="../HTML_CSS_Template 1/index.html#blog">Blog</a></li>
+                    <li>Single Post</li>
+                </ul> <!-- ./breadcrumb fright-->
+            </div> <!-- ./blog-page-content ohidden-->
+        </div> <!-- ./container -->
+    </div> <!-- ./blog-page bg-gray pd-y -->
+
+    <!-- Blog Page -->
+    <div class="container pd-y ohidden">
+        <main id="main" class="fleft">
+            <div class="blog-image">
+                <img src="../HTML_CSS_Template 1/images/blog/blog1.webp" alt="This is Blog 1 Photo !">
+            </div> <!-- ./blog-img fleft -->
+            <div class="blog-content">
+                <ul class="blog-meta mg-b-20">
+                    <li>
+                        <i class="fa fa-user"></i>
+                        <span class="uppercase">john doe</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-clock-o"></i>
+                        <span class="uppercase">18 oct</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-comments"></i>
+                        <span>57</span>
+                    </li>
+                </ul>
+                <h3 class="mg-b-20">Morbi mattis felis at nunc. Duis viverra</h3>
+                <p class="mg-b-20">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
+                    vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                    Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
+                    ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+                <div class="blog-tags">
+                    <h4>Tags :</h4>
+                    <a href="#"><i class="fa fa-tag"></i>Web</a>
+                    <a href="#"><i class="fa fa-tag"></i>Design</a>
+                    <a href="#"><i class="fa fa-tag"></i>Marketing</a>
+                    <a href="#"><i class="fa fa-tag"></i>Development</a>
+                    <a href="#"><i class="fa fa-tag"></i>Branding</a>
+                    <a href="#"><i class="fa fa-tag"></i>Photography</a>
+                </div> <!-- ./blog-tags -->
+                <div class="blog-author">
+                    <div class="media ohidden">
+                        <div class="media-left fleft">
+                            <img src="./images/team/team1.webp" alt="">
+                        </div>
+                        <div class="media-body">
+                            <div class="media-heading mg-b-20">
+                                <h3 class="uppercase fleft">john doe</h3>
+                                <div class="author-social fright">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-youtube"></i></a>
+                                </div>
+                            </div>
+                            <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed.
+                                Nunc non blandit massa enim nec.</p>
+                        </div> <!-- ./blog-author -->
+                    </div>
+                </div>
+                <div class="blog-comments">
+                    <h3 class="title uppercase" id="fh3">(13) comments</h3>
+                    <!-- comment -->
+                    <div class="blog-media ohidden">
+                        <div class="blog-media-left fleft">
+                            <img src="./images/team/team1.webp" alt="This Team1 Image !">
+                        </div>
+                        <div class="media-body">
+                            <div class="media-body-heading mg-b-20">
+                                <h3 class="uppercase fleft">john doe</h3>
+                                <span class="time uppercase">2 min ago</span>
+                                <a href="#" class="reply fright uppercase">Reply<i class="fa fa-reply"></i></a>
+                            </div>
+                            <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed.Nunc non blandit massa enim nec.</p>
+                        </div>
+                    </div>
+                    <!-- /comment -->
+                    <!-- comment -->
+                    <div class="blog-media ohidden">
+                        <div class="blog-media-left fleft">
+                            <img src="./images/team/team3.webp" alt="This Team1 Image !">
+                        </div>
+                        <div class="media-body">
+                            <div class="media-body-heading mg-b-20">
+                                <h3 class="uppercase fleft">john doe</h3>
+                                <span class="time uppercase">2 min ago</span>
+                                <a href="#" class="reply fright uppercase">Reply<i class="fa fa-reply"></i></a>
+                            </div>
+                            <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed.Nunc non blandit massa enim nec.</p>
+                        </div>
+                        <div class="media-author">
+                            <div class="blog-media-left fleft">
+                                <img src="./images/team/team1.webp" alt="This Team1 Image !">
+                            </div>
+                            <div class="media-body">
+                                <div class="media-body-heading mg-b-20">
+                                    <h3 class="uppercase fleft">john doe</h3>
+                                    <span class="time uppercase">2 min ago</span>
+                                    <a href="#" class="reply fright uppercase">Reply<i class="fa fa-reply"></i></a>
+                                </div>
+                                <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed.Nunc non blandit massa enim nec.</p>
+                            </div>
+                        </div> <!-- ./media-author -->
+                        <div class="blog-media ohidden">
+                            <div class="blog-media-left fleft">
+                                <img src="./images/team/team1.webp" alt="This Team1 Image !">
+                            </div>
+                            <div class="media-body">
+                                <div class="media-body-heading mg-b-20">
+                                    <h3 class="uppercase fleft">john doe</h3>
+                                    <span class="time uppercase">2 min ago</span>
+                                    <a href="#" class="reply fright uppercase">Reply<i class="fa fa-reply"></i></a>
+                                </div>
+                                <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed.Nunc non blandit massa enim nec.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /comment -->
+                    <!-- comment -->
+                    <div class="blog-media ohidden">
+                        <div class="blog-media-left fleft">
+                            <img src="./images/team/team2.webp" alt="This Team1 Image !">
+                        </div>
+                        <div class="media-body">
+                            <div class="media-body-heading mg-b-20">
+                                <h3 class="uppercase fleft">john doe</h3>
+                                <span class="time uppercase">2 min ago</span>
+                                <a href="#" class="reply fright uppercase">Reply<i class="fa fa-reply"></i></a>
+                            </div>
+                            <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed.Nunc non blandit massa enim nec.</p>
+                        </div>
+                    </div>
+                    <!-- /comment -->
+                </div>
+                <div class="reply-form">
+                    <h3 class="title mg-b-10">Leave a Reply</h3>
+                    <form action="" method="post" class="form">
+                        <div class="namemail">
+                            <input type="text" placeholder="Name" class="input">
+                            <input type="email" placeholder="Email" class="input" autocomplete="on">
+                        </div>
+                        <textarea name="comment" id="comment" cols="30" rows="60" placeholder="Add Your Comment" class="input width"></textarea>
+                        <button class="btn btn-learn hover-opacity" type="submit">Sumbit</button>
+                    </form>
+                </div>
+            </div>
+        </main> <!-- ./main -->
+        <aside id="aside" class="fleft">
+            <!-- Search -->
+            <div class="widget mg-b-25">
+                <div class="widget-search fleft">
+                    <div class="blog-search mg-b-20">
+                        <input type="text" placeholder="Search" id="search">
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                </div> <!-- ./widget-search -->
+            </div> <!-- ./widget -->
+            <!-- /Search -->
+
+            <!-- Category -->
+            <div class="widget mg-b-25">
+                <h3 class="title uppercase mg-b-20">category</h3>
+                <div class="widget-category">
+                    <a href="#">Web Design<span class="fright">(7)</span></a>
+                    <a href="#">Marketing<span class="fright">(142)</span></a>
+                    <a href="#">Web Development<span class="fright">(74)</span></a>
+                    <a href="#">Branding<span class="fright">(60)</span></a>
+                    <a href="#">Photography<span class="fright">(5)</span></a>
+                </div> <!-- ./widget-category -->
+            </div>
+            <!-- /Category -->
+
+            <!-- Popular Posts -->
+            <div class="widget mg-b-25">
+                <h3 class="title uppercase mg-b-20">popular posts</h3>
+                <!-- Single Post -->
+                <div class="widget-post mg-b-25">
+                    <a href="#"><img class="fleft" src="../HTML_CSS_Template 1/images/blog/blog1.webp"
+                            alt="This is Blog 1 !"><span class="mg-b-5">Blog Title Goes here</span></a>
+                    <span>Oct 14,2020</span>
+                </div>
+                <div class="widget-post mg-b-25">
+                    <a href="#"><img class="fleft" src="../HTML_CSS_Template 1/images/blog/blog2.webp"
+                            alt="This is Blog 1 !"><span class="mg-b-5">Blog Title Goes here</span></a>
+                    <span>Oct 14,2020</span>
+                </div>
+                <div class="widget-post mg-b-25">
+                    <a href="#"><img class="fleft" src="../HTML_CSS_Template 1/images/blog/blog3.webp"
+                            alt="This is Blog 1 !"><span class="mg-b-5">Blog Title Goes here</span></a>
+                    <span>Oct 14,2020</span>
+                </div>
+            </div>
+            <!-- /Popular Posts -->
+
+            <!-- Tags -->
+            <div class="widget mg-b-25">
+                <h3 class="title uppercase mg-b-20">tags</h3>
+                <div class="widget-tags">
+                    <a href="#">Web</a>
+                    <a href="#">Design</a>
+                    <a href="#">Graphic</a>
+                    <a href="#">Marketing</a>
+                    <a href="#">Development</a>
+                    <a href="#">Photography</a>
+                </div> <!-- ./widget-tags -->
+            </div>
+            <!-- /Tags -->
+
+        </aside> <!-- ./aside -->
+    </div> <!-- ./container -->
+
+    <!-- Footer Section -->
+    <div class="footer pd-y">
+        <a href="#" class="hover-opacity"><img src="images/Logo-alt2.png" alt="This is the flag of the company ! "
+                draggable="false"></a>
+        <ul class="footer-links">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+        </ul> <!-- ./footer-links -->
+        <p class="uppercase">copyright &copy; 2020. all rights reserved. designed by <a href="./index.html">ahmed alashi</a></p>
+    </div> <!-- ./footer -->
+</body>
+
+</html>
